@@ -6,8 +6,8 @@ also manually test your solution by running main/app.py.
 import unittest
 import requests
 
-from src.main.lab import sample
-from src.main.lab import lab
+from main.lab import sample
+from main.lab import lab
 
 
 class TestLLMResponse(unittest.TestCase):
